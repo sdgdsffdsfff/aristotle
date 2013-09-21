@@ -118,10 +118,11 @@ if (isset($_GET['keywords'])) {
                                     <p></p>
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
-                                            <strong>辨证:</strong>&nbsp;患者有证候<a>肝气郁结证</a>
-                                        
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">发表评议</span></a>
-                                      
+                                            <strong>辨证:</strong>&nbsp;患者有证候<a>肝气郁结证</a>    
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">评论3</span></a>
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-down">反对2</span></a>
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-up">赞成1</span></a>
+
                                         </div>
                                         <div class="panel-body">
 
@@ -133,23 +134,21 @@ if (isset($_GET['keywords'])) {
                                                 <span class="glyphicon glyphicon-chevron-left"></span>
                                                 <a>肝气郁结证</a>,&nbsp;<a>导致</a>,&nbsp;<a>郁怒</a>
                                                 <span class="glyphicon glyphicon-chevron-right"></span>
+                                                <a class="btn btn-link pull-right" href="case.php" target="_blank" role="button">查看详情&nbsp; &raquo;</a></p>
 
-                                                <a class="btn btn-link pull-right" href="#" role="button">查看推理过程&nbsp; &raquo;</a></p>
-                                        </div>
-                                        <div class="panel-footer">
-                                            <strong>专家评议:</strong>
-
-
-                                            <p> <a class="btn btn-link" href="#" role="button"><span class="glyphicon glyphicon-user"></span>于彤</a>&nbsp;:“肝气郁结证的症状为郁怒”可以通过五行学说中的“怒伤肝”加以解释。 <a class="btn btn-link  pull-right" href="#" role="button">查看详情&nbsp; &raquo;</a></p>
 
                                         </div>
+
                                     </div>
 
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <strong>辨证:</strong>&nbsp;患者有证候<a>肝气不运证</a>
-                                        
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">发表评论</span></a>
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">评论3</span></a>
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-down">反对2</span></a>
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-up">赞成1</span></a>
+
+
                                         </div>
                                         <div class="panel-body">
 
@@ -160,25 +159,22 @@ if (isset($_GET['keywords'])) {
                                                 <span class="glyphicon glyphicon-chevron-left"></span>
                                                 <a>肝气不运证</a>,&nbsp;<a>导致</a>,&nbsp;<a>肝气郁结证</a>
                                                 <span class="glyphicon glyphicon-chevron-right"></span>
-                                                <a class="btn btn-link pull-right" href="#" role="button">查看推理过程&nbsp; &raquo;</a></p>
+                                                <a class="btn btn-link pull-right" href="case.php" target="_blank" role="button">查看详情&nbsp; &raquo;</a></p>
 
 
                                         </div>
-                                        <div class="panel-footer">
-                                            <strong>专家评议:</strong> 
 
-                                            <p><a class="btn btn-link" href="#" role="button"><span class="glyphicon glyphicon-user"></span>于彤</a>&nbsp;: “肝气不运”导致“肝气郁结”可以被理解为：位于肝的气无法正常流动导致气的郁结。<a class="btn btn-link  pull-right" href="#" role="button">查看详情&nbsp; &raquo;</a></p>
-
-                                        </div>
                                     </div>
 
-                                  
+
 
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <strong>辨证:</strong>&nbsp;患者有证候<a>肝郁脾虚证</a>
-                                   
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">发表评论</span></a>
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">评论3</span></a>
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-down">反对2</span></a>
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-up">赞成1</span></a>
+
                                         </div>
                                         <div class="panel-body">
 
@@ -189,23 +185,20 @@ if (isset($_GET['keywords'])) {
                                                 <span class="glyphicon glyphicon-chevron-left"></span>
                                                 <a>肝郁脾虚证</a>,&nbsp;<a>导致</a>,&nbsp;<a>肝气不运证</a>
                                                 <span class="glyphicon glyphicon-chevron-right"></span>
-                                                <a class="btn btn-link pull-right" href="#" role="button">查看推理过程&nbsp; &raquo;</a></p>
+                                                <a class="btn btn-link pull-right" href="case.php" target="_blank" role="button">查看详情&nbsp; &raquo;</a></p>
 
 
                                         </div>
-                                        <div class="panel-footer">
-                                            <strong>专家评议:</strong>
 
-                                            <p><a class="btn btn-link" href="#" role="button"><span class="glyphicon glyphicon-user"></span>于彤</a>&nbsp;:“肝郁脾虚”导致“肝气不运”可以被理解为：“肝郁”导致位于肝的气无法正常流动。 <a class="btn btn-link  pull-right" href="#" role="button">查看详情&nbsp; &raquo;</a></p>
-
-                                        </div>
                                     </div>
 
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <strong>辨证:</strong>&nbsp;患者有证候<a>血瘀证</a>
-                                      
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">发表评论</span></a>
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">评论3</span></a>
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-down">反对2</span></a>
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-up">赞成1</span></a>
+
                                         </div>
                                         <div class="panel-body">
 
@@ -216,22 +209,21 @@ if (isset($_GET['keywords'])) {
                                                 <span class="glyphicon glyphicon-chevron-left"></span>
                                                 <a>肝气郁结证</a>,&nbsp;<a>导致</a>,&nbsp;<a>血瘀证</a>
                                                 <span class="glyphicon glyphicon-chevron-right"></span>
-                                                <a class="btn btn-link pull-right" href="#" role="button">查看推理过程&nbsp; &raquo;</a></p>
+                                                <a class="btn btn-link pull-right" href="case.php" target="_blank" role="button">查看详情&nbsp; &raquo;</a></p>
 
 
                                         </div>
-                                        <div class="panel-footer">
-                                            <strong>专家评议:</strong> 
 
-
-                                        </div>
                                     </div>
 
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <strong>立法:</strong>&nbsp;患者的治法为<a>疏肝补脾法</a>
-                                      
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">发表评论</span></a>
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">评论3</span></a>
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-down">反对2</span></a>
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-up">赞成1</span></a>
+
+
                                         </div>
                                         <div class="panel-body">
 
@@ -242,24 +234,21 @@ if (isset($_GET['keywords'])) {
                                                 <span class="glyphicon glyphicon-chevron-left"></span>
                                                 <a>疏肝补脾法</a>,&nbsp;<a>治疗</a>,&nbsp;<a>肝郁脾虚证</a>
                                                 <span class="glyphicon glyphicon-chevron-right"></span>
-                                                <a class="btn btn-link pull-right" href="#" role="button">查看推理过程&nbsp; &raquo;</a></p>
+                                                <a class="btn btn-link pull-right" href="case.php" target="_blank" role="button">查看详情&nbsp; &raquo;</a></p>
 
 
                                         </div>
-                                        <div class="panel-footer">
-                                            <strong>专家评议:</strong>
 
-                                            <p><a class="btn btn-link" href="#" role="button"><span class="glyphicon glyphicon-user"></span>于彤</a>&nbsp;:根据“郁则疏之”和“虚则补之”等治则，得到“疏肝补脾治疗肝郁脾虚”这一结论。<a class="btn btn-link  pull-right" href="#" role="button">查看详情&nbsp; &raquo;</a></p>
-
-
-                                        </div>
                                     </div>
 
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <strong>处方:</strong>&nbsp;患者的处方为<a>柴胡疏肝汤</a>
-                                       
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">发表评论</span></a>
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">评论3</span></a>
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-down">反对2</span></a>
+                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-up">赞成1</span></a>
+
+
                                         </div>
                                         <div class="panel-body">
 
@@ -270,18 +259,11 @@ if (isset($_GET['keywords'])) {
                                                 <span class="glyphicon glyphicon-chevron-left"></span>
                                                 <a>柴胡疏肝汤</a>,&nbsp;<a>功效</a>,&nbsp;<a>疏肝补脾法</a>
                                                 <span class="glyphicon glyphicon-chevron-right"></span>
-                                                <a class="btn btn-link pull-right" href="#" role="button">查看推理过程&nbsp; &raquo;</a></p>
+                                                <a class="btn btn-link pull-right" href="case.php" target="_blank" role="button">查看详情&nbsp; &raquo;</a></p>
 
 
                                         </div>
-                                        <div class="panel-footer">
-                                            <strong>专家评议:</strong> 
 
-
-                                            <p><a class="btn btn-link" href="#" role="button"><span class="glyphicon glyphicon-user"></span>于彤</a>&nbsp;:方剂“柴胡疏肝汤”具有疏肝和理气的功效。<a class="btn btn-link  pull-right" href="#" role="button">查看详情&nbsp; &raquo;</a></p>
-
-
-                                        </div>
                                     </div>
                                 </div> 
                                 <div class="tab-pane" id="tab3">
