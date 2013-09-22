@@ -76,29 +76,28 @@ if (isset($_GET['keywords'])) {
                 </div>
                 <p></p>
 
+
+
+
+
+
                 <div class="row">
                     <div class="col-md-10">
                         <div class="tabbable">
                             <ul class="nav nav-tabs">
-                                <li class="active"><a href="#tab1" data-toggle="tab">答案总结</a></li>
-                                <li><a href="#tab2" data-toggle="tab">推理结果</a></li>
-                                <li><a href="#tab3" data-toggle="tab">知识搜索</a></li>                                      
+                                <li class="active"><a href="#tab1" data-toggle="tab">知识问答</a></li>
+
+                                <li><a href="#tab2" data-toggle="tab">知识搜索</a></li>                                      
                             </ul>
+
                             <div class="tab-content">
                                 <div class="tab-pane active" id="tab1">
                                     <p></p>
-                                    <div class="well">
-                                        <strong>郁怒</strong>
-                                        <hr>
-                                        <p>气势盛积。《文选·傅毅<舞赋>》：“马材不同，各相倾夺……或有宛足郁怒，般桓不发。” 李善 注：“郁怒，气迟留不发也。” 唐 韩愈 《赠崔立之评事》诗：“朝为百赋犹郁怒，募作千诗转遒紧。” 钱仲联 集释引 孙汝听 曰：“言犹有馀勇也。” 宋 苏辙 《入峡》诗：“峡门石为户，郁怒水力骄。”
-                                            <a class="btn btn-link pull-right" href="#" role="button">查看详情&nbsp; &raquo;</a>
-                                        </p>
 
-                                    </div>
 
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
-                                            <strong>推理结果总结</strong>
+                                            <strong>答案（推理结果）</strong>
                                         </div>
                                         <div class="panel-body">
                                             <p><strong>辨证:</strong></p>
@@ -111,163 +110,59 @@ if (isset($_GET['keywords'])) {
                                             患者的处方为<a>柴胡疏肝汤</a>。
                                         </div>
                                     </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <strong>问题</strong>
+                                        </div>
+                                        <div class="panel-body">
+                                            <p><strong>患者还有如下症状吗？</strong></p>
+                                            <label class="checkbox-inline">
+                                                <input type="checkbox" id="inlineCheckbox1" value="option1"> 怒
+                                            </label>
+                                            <label class="checkbox-inline">
+                                                <input type="checkbox" id="inlineCheckbox2" value="option2"> 燥怒
+                                            </label>
+                                            <label class="checkbox-inline">
+                                                <input type="checkbox" id="inlineCheckbox3" value="option3"> 失眠
+                                            </label>
+                                            <label class="checkbox-inline">
+                                                <input type="checkbox" id="inlineCheckbox3" value="option3"> 惊恐
+                                            </label>
+                                            <label class="checkbox-inline">
+                                                <input type="checkbox" id="inlineCheckbox3" value="option3"> 腹泻
+                                            </label>
+
+                                            <hr>
+                                            <p><strong>您选择哪种治法？</strong></p>
+                                            <label class="checkbox-inline">
+                                                <input type="checkbox" id="inlineCheckbox1" value="option1"> 疏肝补脾法
+                                            </label>
+                                            <hr>
+                                            <p><strong>您选择哪种处方？</strong></p>
+                                            <label class="checkbox-inline">
+                                                <input type="checkbox" id="inlineCheckbox1" value="option1"> 柴胡疏肝汤
+                                            </label>
+
+                                        </div>
+                                    </div>
+                                    <p></p>
+                                    <a href="session.php"><span class="btn btn-success ">保存并查看案例</span></a>
+                                    <p></p>
 
 
                                 </div>     
+
                                 <div class="tab-pane" id="tab2">
+
                                     <p></p>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <strong>辨证:</strong>&nbsp;患者有证候<a>肝气郁结证</a>    
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">评论3</span></a>
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-down">反对2</span></a>
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-up">赞成1</span></a>
-
-                                        </div>
-                                        <div class="panel-body">
-
-                                            <p> <strong>推理依据:</strong> </p><p>
-                                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                                患者,&nbsp;<a>有症状</a>,&nbsp;<a>郁怒</a>
-                                                <span class="glyphicon glyphicon-chevron-right"></span>
-
-                                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                                <a>肝气郁结证</a>,&nbsp;<a>导致</a>,&nbsp;<a>郁怒</a>
-                                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                                <a class="btn btn-link pull-right" href="case.php" target="_blank" role="button">查看详情&nbsp; &raquo;</a></p>
-
-
-                                        </div>
+                                    <div class="well">
+                                        <strong>郁怒</strong>
+                                        <hr>
+                                        <p>气势盛积。《文选·傅毅<舞赋>》：“马材不同，各相倾夺……或有宛足郁怒，般桓不发。” 李善 注：“郁怒，气迟留不发也。” 唐 韩愈 《赠崔立之评事》诗：“朝为百赋犹郁怒，募作千诗转遒紧。” 钱仲联 集释引 孙汝听 曰：“言犹有馀勇也。” 宋 苏辙 《入峡》诗：“峡门石为户，郁怒水力骄。”
+                                            <a class="btn btn-link pull-right" href="#" role="button">查看详情&nbsp; &raquo;</a>
+                                        </p>
 
                                     </div>
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <strong>辨证:</strong>&nbsp;患者有证候<a>肝气不运证</a>
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">评论3</span></a>
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-down">反对2</span></a>
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-up">赞成1</span></a>
-
-
-                                        </div>
-                                        <div class="panel-body">
-
-                                            <p> <strong>推理依据:</strong> </p><p>
-                                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                                患者,&nbsp;<a>有证候</a>,&nbsp;<a>肝气郁结证</a>
-                                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                                <a>肝气不运证</a>,&nbsp;<a>导致</a>,&nbsp;<a>肝气郁结证</a>
-                                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                                <a class="btn btn-link pull-right" href="case.php" target="_blank" role="button">查看详情&nbsp; &raquo;</a></p>
-
-
-                                        </div>
-
-                                    </div>
-
-
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <strong>辨证:</strong>&nbsp;患者有证候<a>肝郁脾虚证</a>
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">评论3</span></a>
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-down">反对2</span></a>
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-up">赞成1</span></a>
-
-                                        </div>
-                                        <div class="panel-body">
-
-                                            <p> <strong>推理依据:</strong> </p><p>
-                                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                                患者,&nbsp;<a>有证候</a>,&nbsp;<a>肝气不运证</a>
-                                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                                <a>肝郁脾虚证</a>,&nbsp;<a>导致</a>,&nbsp;<a>肝气不运证</a>
-                                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                                <a class="btn btn-link pull-right" href="case.php" target="_blank" role="button">查看详情&nbsp; &raquo;</a></p>
-
-
-                                        </div>
-
-                                    </div>
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <strong>辨证:</strong>&nbsp;患者有证候<a>血瘀证</a>
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">评论3</span></a>
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-down">反对2</span></a>
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-up">赞成1</span></a>
-
-                                        </div>
-                                        <div class="panel-body">
-
-                                            <p> <strong>推理依据:</strong> </p><p>
-                                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                                患者,&nbsp;<a>有证候</a>,&nbsp;<a>肝气郁结证</a>
-                                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                                <a>肝气郁结证</a>,&nbsp;<a>导致</a>,&nbsp;<a>血瘀证</a>
-                                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                                <a class="btn btn-link pull-right" href="case.php" target="_blank" role="button">查看详情&nbsp; &raquo;</a></p>
-
-
-                                        </div>
-
-                                    </div>
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <strong>立法:</strong>&nbsp;患者的治法为<a>疏肝补脾法</a>
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">评论3</span></a>
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-down">反对2</span></a>
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-up">赞成1</span></a>
-
-
-                                        </div>
-                                        <div class="panel-body">
-
-                                            <p> <strong>推理依据:</strong> </p><p>
-                                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                                患者,&nbsp;<a>有证候</a>,&nbsp;<a>肝郁脾虚证</a>
-                                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                                <a>疏肝补脾法</a>,&nbsp;<a>治疗</a>,&nbsp;<a>肝郁脾虚证</a>
-                                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                                <a class="btn btn-link pull-right" href="case.php" target="_blank" role="button">查看详情&nbsp; &raquo;</a></p>
-
-
-                                        </div>
-
-                                    </div>
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <strong>处方:</strong>&nbsp;患者的处方为<a>柴胡疏肝汤</a>
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-comment">评论3</span></a>
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-down">反对2</span></a>
-                                            <a class="btn btn-link pull-right"><span class="glyphicon glyphicon-thumbs-up">赞成1</span></a>
-
-
-                                        </div>
-                                        <div class="panel-body">
-
-                                            <p> <strong>推理依据:</strong> </p><p>
-                                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                                患者,&nbsp;<a>有治法</a>,&nbsp;<a>疏肝补脾法</a>
-                                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                                <span class="glyphicon glyphicon-chevron-left"></span>
-                                                <a>柴胡疏肝汤</a>,&nbsp;<a>功效</a>,&nbsp;<a>疏肝补脾法</a>
-                                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                                <a class="btn btn-link pull-right" href="case.php" target="_blank" role="button">查看详情&nbsp; &raquo;</a></p>
-
-
-                                        </div>
-
-                                    </div>
-                                </div> 
-                                <div class="tab-pane" id="tab3">
-                                    <p></p>
                                     <?php
 //$keywords = '四君子汤';
                                     render_entity($dbc, $keywords);
