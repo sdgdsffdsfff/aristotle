@@ -146,6 +146,8 @@ if (isset($_GET['keywords'])) {
                                         </div>
                                     </div>
                                     <p></p>
+                                    <a href="session.php"><span class="btn btn-primary ">重新提问</span></a>
+                                    
                                     <a href="session.php"><span class="btn btn-success ">保存并查看案例</span></a>
                                     <p></p>
 

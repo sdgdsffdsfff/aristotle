@@ -15,10 +15,10 @@ include_once ("./header.php");
     <!-- Example row of columns -->
     <div class="row">
         <div class="col-lg-4">
-            <h2><a>郁怒</a></h2>
+            <h2><a>关于“郁怒”的问答</a></h2>
             
             <p>“中医通过望神，发现病人处于‘郁怒’的状态；进一步辨认出病人具有‘肝气郁结’等的证候，据此确定‘疏肝理气’等治法；最后开出‘柴胡疏肝散’用于治疗”。这一推理案例虽然简单，但涉及了诊断、辨证、立法和组方等中医临床推理的基本环节。</p>
-            <p><a class="btn btn-primary" href="http://v3.bootcss.com/examples/justified-nav/#" role="button">查看详情 »</a></p>
+            <p><a class="btn btn-primary" href="session.php" role="button">查看详情 »</a></p>
         </div>
         <div class="col-lg-4">
             <h2>证候</h2>
